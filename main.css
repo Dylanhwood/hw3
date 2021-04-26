@@ -1,0 +1,56 @@
+body { font-family: arial;}
+#myDiv {
+    border:  1px solid gray;
+    background-color: rgb(251, 251, 178);
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+    border-radius: 5px;
+    font-family:arial;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    border-top:1px solid red ;
+  }
+  #myDiv h2 {text-align:center; text-decoration: underline;}
+  form {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    background-color: rgb(251, 251, 178);
+    margin: 20px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+  }
+  tr, td  {
+    padding-top: 10px;
+  }
+  input[type=button] {
+    margin-left:5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 12px;
+    cursor: pointer;
+    Background-color:yellow;
+    border-radius: 5px;
+  }
+  
+  input[type=button]:hover {background-color:rgb(68, 68, 255); color:white;transition-duration: .25s;}
+  
+
+
+  #myH2top {
+    width: 100%; 
+    text-align: start; 
+    border-bottom: 1px solid red; 
+    line-height: 0.1em;
+    margin: -10px -10px 20px -10px; 
+    color:white;
+  } 
+
+  #myH2top span { 
+      background:red; 
+      border-radius:5px;
+      padding: 0 10px; 
+  }
